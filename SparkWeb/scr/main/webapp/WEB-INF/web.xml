@@ -1,0 +1,30 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ShowCityInfoServlet</servlet-name>
+  	<servlet-class>cn.just.servlet.ShowCityInfoServlet</servlet-class>
+  </servlet>
+  
+   <servlet>
+  	<servlet-name>ShowTimeInfoServlet</servlet-name>
+  	<servlet-class>cn.just.servlet.ShowTimeInfoServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ShowTimeInfoServlet</servlet-name>
+  	<url-pattern>/timeInfo.do</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+  	<servlet-name>ShowCityInfoServlet</servlet-name>
+  	<url-pattern>/cityInfo.do</url-pattern>
+  </servlet-mapping>
+ 
+  
+  
+</web-app>
