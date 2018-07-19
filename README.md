@@ -22,12 +22,12 @@
 
 **数据可视化结果展示：使用Java Web开发**
 
-## 需求一结果展示
+### 需求一结果展示
+![timeTopn](https://github.com/ljcan/jqBlogs/blob/master/SparkSql/pictures/timeTopn.png)
 
 
-
-## 需求二结果展示
-
+### 需求二结果展示
+![cityTopn](https://github.com/ljcan/jqBlogs/blob/master/SparkSql/pictures/cityTopn.png)
 
 ## 性能调优
 
