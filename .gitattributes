@@ -1,4 +1,5 @@
+*.java linguist-language=scala
 *.js linguist-language=scala
 *.jsp linguist-language=scala
 *.html linguist-language=scala 
-*.java linguist-language=scala
+
