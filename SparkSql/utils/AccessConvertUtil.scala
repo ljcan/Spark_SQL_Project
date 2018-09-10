@@ -74,7 +74,7 @@ object AccessConvertUtil {
   }
 
   def main(args: Array[String]): Unit = {
-    val a="http://learn.ibeifeng.com/course/view.php?id=42&p=3"
+    val a="http://just.learn.com/course/view.php?id=42&p=3"
 
     parseLog(a)
   }
